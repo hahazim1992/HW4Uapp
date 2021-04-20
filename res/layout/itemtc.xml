@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_marginTop="30dp"
+  	android:layout_marginLeft="10dp"
+  	android:layout_marginRight="60dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            
+        	<TextView
+      			android:id="@+id/itemTitle"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:text="Title"
+      			android:textStyle="bold"
+      			android:textColor="#000"/>
+        	
+        	<TextView
+      			android:id="@+id/itemIns"
+      			android:layout_width="250dp"
+      			android:layout_height="wrap_content"
+      			android:text="Instructions"
+      			android:textStyle="bold"
+      			android:textColor="#000"/>
+        
+        
+        	<TextView
+      			android:id="@+id/itemClass"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:text="Class"
+      			android:textStyle="bold"
+      			android:textColor="#000"/>
+        
+        	<TextView
+      			android:id="@+id/itemDue"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:text="Due Date"
+      			android:textStyle="bold"
+      			android:textColor="#000"/>
+        
+        	<TextView
+      			android:id="@+id/itemTeacher"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:text="Teacher"
+      			android:textStyle="bold"
+      			android:textColor="#000"/>
+        	
+        	<TextView
+      			android:id="@+id/itemStatus"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:text="Status"
+      			android:textStyle="bold"
+      			android:textColor="#000"/>
+            
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="6dp">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            
+        	<TextView
+      			android:id="@+id/itemhwName"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:textColor="#000"/>
+        	
+        	<TextView
+      			android:id="@+id/itemhwIns"
+      			android:layout_width="250dp"
+      			android:layout_height="wrap_content"
+      			android:textColor="#000"/>
+        	
+        	
+        	<TextView
+      			android:id="@+id/itemhwClass"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:textColor="#000"/>
+        	
+        	<TextView
+      			android:id="@+id/itemhwDue"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:textColor="#000"/>
+        	
+        	<TextView
+      			android:id="@+id/itemhwTc"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:textColor="#000"/>
+        	
+        	<TextView
+      			android:id="@+id/itemhwSt"
+      			android:layout_width="100dp"
+      			android:layout_height="wrap_content"
+      			android:textColor="#000"/>
+        	
+    
+    </LinearLayout>
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+
+
+    
+
+    

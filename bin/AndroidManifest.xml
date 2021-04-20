@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hw4uapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hw4uapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.RegisterTeaActivity"
+            android:label="@string/title_activity_register_tea" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.RegisterStuActivity"
+            android:label="@string/title_activity_register_stu" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.CreateClassActivity"
+            android:label="@string/title_activity_create_class" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.CreateHomeworkActivity"
+            android:label="@string/title_activity_create_homework" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.TeacherPageActivity"
+            android:label="@string/title_activity_teacher_page" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.UpdateHomeworkActivity"
+            android:label="@string/title_activity_update_homework" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.StudentPageActivity"
+            android:label="@string/title_activity_student_page" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.HomeTeacherActivity"
+            android:label="@string/title_activity_home_teacher" >
+        </activity>
+        <activity
+            android:name="com.example.hw4uapp.HomeStudentActivity"
+            android:label="@string/title_activity_home_student" >
+        </activity>
+    </application>
+
+</manifest>
